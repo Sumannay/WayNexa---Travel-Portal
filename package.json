@@ -1,0 +1,17 @@
+{
+  "name": "waynexa-travel-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WayNexa Premium Travel Portal & Discovery Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix \"WayNexa_Travel_Portal-main/client\"",
+    "build": "npm run build --prefix \"WayNexa_Travel_Portal-main/client\"",
+    "server:dev": "node server/index.mjs",
+    "start": "npm run dev --prefix \"WayNexa_Travel_Portal-main/client\"",
+    "preview": "npm run preview --prefix \"WayNexa_Travel_Portal-main/client\""
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "mysql2": "^3.24.6"
+  }
+}
